@@ -11,6 +11,7 @@ def self.all
 end
 def self.print_all 
 @@all.each do |value|
+  binding.pry
   puts "#{value}"
 end 
 end 
