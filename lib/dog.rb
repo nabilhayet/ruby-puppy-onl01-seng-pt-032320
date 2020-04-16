@@ -13,7 +13,7 @@ def self.print_all
   puts value 
 end 
 end 
-def save(name)
+def save
 @@all << name 
 end 
 def self.clear_all 
